@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi, I'm Vika</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+   
+    <body>
+        <header>
+            <div class="header-logo">
+                <h2>I'm VIKA</h2>
+            </div>
+            <nav class="main-menu">
+                <ul>
+                    <li class="menu about-me"><a href="#about-me">About Me</a></li>
+                    <li class="menu myyjourney"><a href="#myyjourney">My Journey</a></li>
+                    <li class="menu portfolio"><a href="#portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+            <nav class="hamburger-button">
+              <div class="sidenav" id="mySidenav">
+                <a class="closebtn" href="javascript:void(0)" onclick="closeNav()">×</a>
+                <li class="menu portfolio"><a href="#portfolio">Portfolio</a></li>              
+                <li class="menu myyjourney"><a href="#myyjourney">My Journey</a></li>
+                <li class="menu about-me"><a href="#about-me">About Me</a></li>
+                
+              </div>
+              <div class="hamburger" id="main">
+                <span onclick="openNav()" style="cursor: pointer; font-size: 30px;">☰ I'm VIKA</span>
+              </div>
+            </nav>
+         </header>
+
+         <div class="top-wrapper">
+            <div class="container">
+               <!-- <img class="banner"src="assets/banner.png" alt="vika" style="width:60%" >-->
+                <h2>Hello,</h2>
+                <h2>I'm Vika</h2>
+            </div>
+        </div>
+
+        <main>
+            <div>
+                <article id="myyjourney">
+                  <h2>My Journey</h2>
+                  <div class="my_journey center">
+                    <div class="myjourney">
+                      <img class="tengah "src="assets/filkom-ub.jpeg" alt="vika" style="width:75%">
+                      <div class="container">
+                        <h2>Fresh Graduate of Information Systems</h2>
+                        <p>I graduated from the faculty of computer science at Brawijaya University in 2021. 
+                          I majored in information systems with an undergraduate education level.
+                          Information Systems is a field that combines computer science with business and management. 
+                            In this department, you will learn how to identify the company's business needs and processes 
+                            based on the company's data, then design a system that fits the company's needs.</p>
+                      </div>
+                    </div>
+                  </div>  
+
+                  <div class="my_journey center">
+                    <div class="myjourney">
+                      <img class="tengah "src="assets/komaldev.jpg" alt="vika" style="width:75%">
+                      <div class="container">
+                        <h2>Komal Development Indonesia</h2>
+                        <p>Taking an internship is one of the things I've ever done when I was in college. 
+                          I did an internship at Komaldev in 2018 for approximately 8 months as a tech developer.
+                          Komal Development Technology is one of the startups engaged in Website and Application Development. 
+                          Now, Komaldev is one of the software houses in Malang City, East Java - Indonesia.
+                        </p>
+                     
+                      </div>
+                    </div>
+                  </div>  
+
+                  <div class="my_journey center">
+                    <div class="myjourney">
+                      <img class="tengah "src="assets/digitalent.png" alt="vika" style="width:75%">
+                      <div class="container">
+                        <h2>Digital Talent Scholarship Batch 1 2021</h2>
+                        <p>I took part in the DTS FGA 2021 program with the theme Intro to Fullstack Developer to improve my skills in the field of web development while waiting for my thesis trial schedule, which at that time was uncertain when it would be scheduled.
+                        The Digital Talent Scholarship Program is a competency development training program that has been given to Indonesian digital talents since 2018. </p>
+                      </div>
+                    </div>
+                  </div>  
+                 
+        
+                </article>
+                <article id="portfolio">
+                    <h2>Portfolio</h2>
+                    <div class="row">
+                        <div class="column-portofolio">
+                            <div class="card">
+                              <img src="assets/rs_sahabat.jpg" alt="rs" style="width:100%">
+                              <div class="container">
+                                <h2>Hospital Information System</h2>
+                                <p>A website that I created for one of my final assignments during college using php and mysql.</p>
+                              </div>
+                            </div>
+                        </div>
+                    
+                        <div class="column-portofolio">
+                            <div class="card">
+                              <img src="assets/bukan_instagram.jpg" alt="ig" style="width:100%">
+                              <div class="container">
+                                <h2>Bukan Instagram</h2>
+                                <p>One of the portfolios that I made while participating in the digital talent scholarship.</p>
+                              </div>
+                            </div>
+                        </div>
+                    
+                        <div class="column-portofolio">
+                            <div class="card">
+                              <img src="assets/b10_teams.jpg" alt="John" style="width:100%">
+                              <div class="container">
+                                <h2>B10 Teams</h2>
+                                <p>A project that was created with my team while participating in a digital talent scholarship.</p>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <aside id="about-me">
+                <h2>About Me</h2>        
+                    <div class="about_me center">
+                      <div class="aboutme">
+                        <img src="assets/im_vika.jpeg" alt="vika" style="width:50%">
+                        <div class="container">
+                          <h2>Evika Septianawati</h2>
+                          <h4>Web Development Enthusiast</h4>
+                          <h5>Email : evikaseptianawati@gmail.com</h5>
+                        </div>
+                      </div>
+                    </div>         
+            </aside>
+        </main>
+         <footer>
+            &copy; 2021 <span class="fab fa-instagram"> @evika_septiana</span>
+         </footer>
+   <script src="script.js"></script>  
+    </body>
+</html>
